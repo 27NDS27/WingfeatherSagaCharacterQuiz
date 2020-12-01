@@ -78,6 +78,8 @@ elif Tink == Janner and not Janner == Leeli and not Tink == Leeli:
     print('You are the similar to both Janner and Tink Wingfeather! You love reading and art and draw and read almost everyday. Music is okay, but it\'s not your thing.')
 elif Leeli == Tink and not Tink == Janner and not Janner == Leeli:
     print('You are the similar to both Kalmar "Tink" and Leeli Wingfeather! You love art and music, draw almost everyday, and play at least one instrument. Reading is okay, but you\'re more into music and art.')
+elif Janner == Leeli and not Tink == Janner and not Tink == Leeli:
+    print('You are similar to both Janner and Leeli Wingfeather! You love art and music, and read almost everyday. Art is okay, but it\'s not your thing.')
 elif Janner > Tink and Janner > Leeli:
     print('You are the most like Janner Wingfeather! You love reading, but art and music are okay but not your thing.')
 elif Tink > Janner and Tink > Leeli:
